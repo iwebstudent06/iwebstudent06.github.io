@@ -17,12 +17,12 @@ h2 {
     font-weight: normal;
 }
 
-ul {
-    padding: 0;
-}
-
 li {
     text-align: left;
+}
+
+a {
+   text-decoration: none
 }
 
 /* HEADER */
@@ -88,6 +88,7 @@ footer nav ul {
     justify-content: center;
 }
 
+
 /* HERO */
 .hero {
     display: grid;
@@ -126,6 +127,25 @@ h3 {
 
 /*  SUB PAGES */
 .page-sub .hero {
-    background: #888;
+    background: rgb(250, 212, 221);
     min-height: 30vh;
+}
+
+/* BLOG ARCHIVES */
+
+.blog-archives {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.blog-entry {
+    border: 1px solid #ddd;
+    padding: 2em;
+    margin: 2em 0;
+    color: turquoise;
+}
+
+.date {
+    opacity: .5;
+    font-size: .8em;
 }

@@ -22,7 +22,8 @@ li {
 }
 
 a {
-   text-decoration: none
+    color: pink;
+    text-decoration: none
 }
 
 /* HEADER */
@@ -87,6 +88,9 @@ footer {
 footer nav ul {
     justify-content: center;
 }
+footer a {
+    color: white;
+}
 
 
 /* HERO */
@@ -97,6 +101,11 @@ footer nav ul {
     background: rgb(250, 212, 221);
     min-height: 60vh;
     color: white;
+}
+.page-home .hero {
+    background-image: url('https://picsum.photos/id/102/1600/800');
+    background-position: center;
+    background-size: cover;
 }
 .hero h2 {
     font-size: 3em;
@@ -118,6 +127,20 @@ footer nav ul {
 h3 {
     font-family: 'Amatic SC';
 }
+.page-home h3 {
+    color: pink;
+}
+.page-about h3 {
+    color: pink;
+}
+.page-blog h3 {
+    color: pink;
+}
+.page-blog h4 {
+    color: pink;
+    font-family: 'Amatic SC';
+    font-size: 1.2em;
+}
 
 @media (max-width:767px) {
     .lists {
@@ -128,7 +151,17 @@ h3 {
 /*  SUB PAGES */
 .page-sub .hero {
     background: rgb(250, 212, 221);
-    min-height: 30vh;
+    min-height: 40vh;
+}
+.page-about .hero {
+    background-image: url('https://picsum.photos/id/1062/1600/800');
+    background-position: center;
+    background-size: cover;
+}
+.page-blog .hero {
+    background-image: url('https://picsum.photos/id/176/2500/1662');
+    background-position: center;
+    background-size: cover;
 }
 
 /* BLOG ARCHIVES */

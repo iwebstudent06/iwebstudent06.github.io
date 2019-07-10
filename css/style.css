@@ -182,3 +182,19 @@ h3 {
     opacity: .5;
     font-size: .8em;
 }
+
+/*CUSTOM UI DESIGNS */
+
+.ui-designs {
+    text-align: center;
+}
+
+.ui-designs img {
+    max-width: 200px;
+}
+
+.page-home h5 {
+    font-family: 'Pacifico';
+    color: pink;
+    font-size: 2em;
+}
